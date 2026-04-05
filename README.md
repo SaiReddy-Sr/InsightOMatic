@@ -41,3 +41,13 @@ It demonstrates full-stack rapid prototyping (Python/Streamlit) and the ability 
 - [ ] Add support for Excel files (`.xlsx`)
 - [ ] Implement caching to reduce Gemini API costs
 - [ ] Incorporate vector search to allow chatting with multi-document data sources
+
+## Architecture
+This repository follows standard Scalable Python Architecture patterns. Components are modularly structured to ensure high cohesion and low coupling with separated concern directories.
+
+## Quick Start
+```bash
+git clone https://github.com/SaiReddy-Sr/InsightOMatic.git
+cd InsightOMatic
+pip install -r requirements.txt
+```
